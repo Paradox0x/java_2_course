@@ -1,6 +1,6 @@
 package collection;
 
-import collection.Max;
+// import collection.Max;
 
 import java.time.LocalDate;
 import java.util.Objects;
@@ -58,5 +58,13 @@ public class User implements Comparable<User> {
             return -1;
         }
         return 0;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public LocalDate getBirth() {
+        return birth;
     }
 }

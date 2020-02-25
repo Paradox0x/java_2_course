@@ -2,3 +2,4 @@
 
 #kody zrodlowe z kursu java 2
 
+StreamsApp
