@@ -16,6 +16,6 @@ public class SupplierDemo {
         Function<Integer, Integer> squar = x -> x * x;
 
         System.out.println(kwadrat.apply(6));
-                
+
     }
 }
